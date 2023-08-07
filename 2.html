@@ -23,6 +23,16 @@ navigator.geolocation.getCurrentPosition(
     enableHighAccuracy: true // 开启高精度模式
   }
 );
+navigator.geolocation.getCurrentPosition(
+  function(position) {
+    console.log("_Latitude: " + position.coords.latitude);
+    console.log("_Longitude: " + position.coords.longitude);
+    console.log("_Accuracy: " + position.coords.accuracy + " meters");
+  },
+  function(error) {
+    console.error("_Error code: " + error.code + "; message: " + error.message);
+  }
+);
 </script>
 
 <style type="text/css">
