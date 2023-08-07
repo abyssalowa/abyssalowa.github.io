@@ -44,8 +44,9 @@ function showPosition(position){
   beforeSend: function(){
    $("#baidu_geo").html('正在定位...');
   },
-  success: function (json) { 
-   if(json.status==){
+  success: function (json) {
+   console.log("Json -> " + JSON.stringify(json)); 
+   if(json.status==0){
     $("#baidu_geo").html(json.result.formatted_address);
    }
   },
