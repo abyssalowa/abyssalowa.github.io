@@ -1,0 +1,7 @@
+http://example.com/2023/07/24/hello-world/
+http://example.com/2023/08/02/goodtime/
+http://example.com/c/index.html
+http://example.com/about/me.html
+http://example.com/About-me/index-1.html
+http://example.com/About-me/index.html
+http://example.com/
